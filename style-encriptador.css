@@ -1,0 +1,163 @@
+
+  html{
+    font-size: 62.5%;  
+     box-sizing: border-box; 
+     scroll-snap-type: y mandatory;
+
+
+}
+*, *:before, *:after {box-sizing: inherit; }
+body {
+  font-size: 16px;
+  background: #dfeaf1;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Prompt', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+
+  @media (min-width: 768px) {
+    .contenedor {
+        max-width: 120rem; 
+        margin: 20px auto 20px auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 70px;
+        
+    }
+}
+
+.articulo1 {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+
+}
+h6 {
+  text-align: center;
+  color:darkslategray ;
+
+}
+@media (min-width: 768px) {
+  .botones {
+      display: flex;
+      margin: auto 2rem auto 5rem;
+  }
+  h6 {
+      margin-left: 2rem;
+      text-align: left;
+  }
+}
+.botones{
+  text-align: center;
+  margin: auto;
+}
+.boton:hover{
+  cursor: pointer;
+  background:#4392f3;
+}
+
+.text-area{
+  height: 77%;
+  width: 100%;
+  background: #d8dfe8;
+  border: none;
+  color: #0a3871;
+  padding: 2rem;
+  margin-top: 6rem;
+  }
+  .text-area:focus{
+      outline: none;
+    }
+   
+.btn-encriptar{
+      background-color: #0a3871;
+      color: #d8dfe8;
+      border: none;
+      border-radius: 0.8rem;
+      height: 50px;
+      width: 300px;
+      margin: 5px;
+  }
+
+    .btn-desencriptar{
+      background-color: #0a3871;
+      color: #d8dfe8;
+      border: none;
+      border-radius: 0.8rem;
+      height: 50px;
+      width: 300px;
+      margin: 5px;
+    }
+
+    @media (min-width: 768px) {
+      .articulo2 {
+          display: block;
+      }
+  }
+  .articulo2 {
+      display: block;
+      margin: auto;
+      text-align: center;
+      
+  }
+
+  .mensaje{
+  text-align: center;
+  background-color: white;
+  background-image: url("Imagenes/Muñeco.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+  padding: 2rem;
+  border-radius: 24px;
+  color: darkslategray;
+  height: 300px;
+  width: 300px;
+  margin: 3rem 0 0 0;}
+
+  .mensaje:focus{
+    outline: none;
+  }
+
+  .btn-copiar{
+    background-color: #0a3871;
+    color:#d8dfe8;
+    border: none;
+    border-radius: 0.8rem;
+    height: 50px;
+    width: 300px;
+    margin: 1rem 0 1rem 0;
+  }
+  ::placeholder {
+    color: #65696d;
+    text-align: center;
+}  
+
+@media (min-width: 768px) {
+  ::placeholder {
+      text-align: left;
+  }
+}
+.footer_p { 
+  position: relative; 
+  text-align: center;
+  color: #65696d;
+}
+@media (min-width: 768px) {
+  .footer_p {      
+      margin: 15rem auto 5rem auto;
+  }
+}
+
